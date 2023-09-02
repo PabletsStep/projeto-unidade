@@ -1,12 +1,19 @@
 @import url("styles/header.css");
 @import url("styles/banner.css");
 @import url("styles/about.css");
+@import url("styles/proximo-encontro.css");
+@import url("styles/galeria.css");
+@import url("styles/produtos.css");
+@import url("styles/equipe.css");
+@import url("styles/footer.css");
 
 :root {
     --branco-fundo: #EBECEE;
+    --branco-fundo-claro: #d7d7d7;
     --branco: #FFFFFF;
     --preto: #000000;
     --cinza: #242424;
+    --marrom: #84837C;
     --fonte-projeto: 'Barlow', sans-serif;
     --fonte-principal: 'Bebas Neue', sans-serif;
 }
@@ -14,6 +21,6 @@
 body {
     background-color: var(--branco-fundo);
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
 }

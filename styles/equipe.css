@@ -1,0 +1,31 @@
+.equipe__container {
+    background-color: var(--branco-fundo-claro);
+    text-align: center;
+}
+
+.equipe__titulo {
+    font-size: 32px;
+    padding: 0.5em 0 0.5em;
+    
+}
+
+.equipe__lista {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+.equipe__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.equipe__imagem {
+    width: 130px;
+    border-radius: 50%;
+}

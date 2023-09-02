@@ -1,0 +1,16 @@
+.produtos__container {
+    text-align: center;
+}
+
+.produtos__titulo {
+    font-size: 32px;
+    padding: 1em 0 0.5em;
+}
+
+.produtos__imagem {
+    width: 100%;
+}
+
+.produtos__texto {
+    padding: 0.5em 0 1em;
+}

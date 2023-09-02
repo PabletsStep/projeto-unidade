@@ -1,0 +1,16 @@
+.proximo-encontro__container {
+    text-align: center;
+}
+
+.proximo-encontro__titulo {
+    font-size: 32px;
+    padding: 1em 0 0.5em;
+}
+
+.proximo-encontro__imagem {
+    width: 100%;
+}
+
+.proximo-encontro__texto {
+    padding: 0.5em;
+}
