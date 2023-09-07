@@ -1,11 +1,14 @@
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/about.css");
-@import url("styles/proximo-encontro.css");
-@import url("styles/galeria.css");
-@import url("styles/produtos.css");
-@import url("styles/equipe.css");
-@import url("styles/footer.css");
+@import url("styles/home/header.css");
+@import url("styles/home/banner.css");
+@import url("styles/home/about.css");
+@import url("styles/home/proximo-encontro.css");
+@import url("styles/home/galeria.css");
+@import url("styles/home/produtos.css");
+@import url("styles/home/equipe.css");
+@import url("styles/home/footer.css");
+@import url("styles/proximo-encontro-page/proximo-encontro-page.css");
+@import url("styles/proposito/proposito.css");
+@import url("styles/galeria-page/galeria-page.css");
 
 :root {
     --branco-fundo: #EBECEE;

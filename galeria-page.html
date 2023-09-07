@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Projeto Unidade</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="cabecalho__container">
+                <img src="./assets/logo-pu-preto.jpg" alt="logo projeto unidade" class="cabecalho__logo">
+                <input type="checkbox" id="menu" class="cabecalho__input">
+                <label for="menu" class="cabecalho__label">
+                    <span class="cabecalho__titulo">
+                        Menu
+                        <img src="./assets/menu-hamburguer.png" alt="menu hamburguer" class="cabecalho__menu-hamburguer">
+                    </span>
+                </label>
+                <ul class="cabecalho__lista-menu">
+                    <li class="cabecalho__lista-menu__item"><a href="index.html" class="cabecalho__lista-menu__link">Home</a><hr></li>
+                    <li class="cabecalho__lista-menu__item"><a href="proximo-encontro-page.html" class="cabecalho__lista-menu__link">Próximo Encontro</a><hr></li>
+                    <li class="cabecalho__lista-menu__item"><a href="proposito.html" class="cabecalho__lista-menu__link">Propósito</a><hr></li>
+                    <li class="cabecalho__lista-menu__item"><a href="galeria-page.html" class="cabecalho__lista-menu__link">Galeria</a><hr></li>
+                    <li class="cabecalho__lista-menu__item"><a href="#" class="cabecalho__lista-menu__link">Produtos</a><hr></li>
+                </ul>
+            </div>   
+        </header>
+        <section class="carrosel">
+            <!-- Slider main container -->
+            <div class="carrosel__container">
+                <h2 class="carrosel__titulo">Galeria</h2>
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./assets/crianca.png" alt="Imagem galeria pu"></div>
+                        <div class="swiper-slide"><img src="./assets/encontro.jpg" alt="Imagem galeria pu"></div>
+                        <div class="swiper-slide"><img src="./assets/galeria.png" alt="Imagem galeria pu"></div>
+                    </div>    
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>  
+        </section>
+        <section class="galerias">
+            <div class="galerias__container">
+                <h3 class="galerias__titulo">Projeto Unidade 28/08</h2>
+                <a class="galerias__link" href="galeria-page-28-08"><img class="galerias__imagem" src="./assets/crianca.png" alt="imagem projeto unidade"></a>
+                <h3 class="galerias__titulo">Projeto Unidade 30/09</h2>
+                <a class="galerias__link" href="galeria-page-28-08"><img class="galerias__imagem" src="./assets/encontro.jpg" alt="imagem projeto unidade"></a>
+                <h3 class="galerias__titulo">Projeto Unidade 09/10</h2>
+                <a class="galerias__link" href="galeria-page-28-08"><img class="galerias__imagem" src="./assets/crianca.png" alt="imagem projeto unidade"></a>
+                <h3 class="galerias__titulo">Projeto Unidade 10/12</h2>
+                <a class="galerias__link" href="galeria-page-28-08"><img class="galerias__imagem" src="./assets/encontro.jpg" alt="imagem projeto unidade"></a>
+            </div>
+        </section>
+        <footer class="rodape-branco">
+            <div class="rodape__container-branco">
+                <img class="rodape__imagem-logo-branco" src="./assets/logo-pu-preto-branco.jpg">
+                <h2 class="rodape__titulo-branco">Projeto Unidade</h2>
+                <p class="rodape__texto-branco">projeto@unidade.com</p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                spaceBetween: 10,
+                slidesPerView: 1,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+                navigation: {
+                    nextEl: '.swipper-button-next',
+                    prevEl: '.swipper-button-prev',
+                },
+                autoplay: {
+                    delay: 3000,
+                },
+                });
+        </script>
+    </body>
+</html>

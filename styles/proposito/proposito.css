@@ -1,0 +1,39 @@
+.sobre-nos__container {
+    background-color: var(--branco-fundo);
+}
+
+.sobre-nos__icone-pu {
+    width: 100%;
+}
+
+.sobre-nos__titulo {
+    font-size: 32px;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    width: 80%;
+}
+
+.sobre-nos__texto {
+    margin-left: 1.7em;
+    padding: 0.5em;
+    width: 80%;
+    font-family: var(--fonte-projeto);
+}
+
+.sobre-nos__item {
+    margin-left: 2.1em;
+    padding: 0.3em;
+    width: 80%;
+    font-family: var(--fonte-projeto);
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.sobre-nos__item strong {
+    font-weight: 700;
+}
+
+.sobre-nos__item__texto {
+    padding: 0.5em;
+}
