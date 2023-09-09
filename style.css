@@ -9,6 +9,7 @@
 @import url("styles/proximo-encontro-page/proximo-encontro-page.css");
 @import url("styles/proposito/proposito.css");
 @import url("styles/galeria-page/galeria-page.css");
+@import url("styles/produtos-page/produtos-page.css");
 
 :root {
     --branco-fundo: #EBECEE;
