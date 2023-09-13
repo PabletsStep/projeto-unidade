@@ -1,0 +1,30 @@
+.galeria__imagens__container {
+    text-align: center;
+    background-color: var(--cinza);
+}
+
+.galeria__imagens__titulo {
+    color: var(--branco);
+    font-size: 32px;
+    padding: 1em;
+}
+
+.galeria__imagens__texto {
+    color: var(--branco);
+    padding-bottom: 1em;
+}
+
+.galeria__imagens__fotos__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.galeria__imagens__fotos__link {
+    width: 45%;
+}
+.galeria__imagens__fotos {
+    width: 100%;
+    padding: 0.3em;
+}
