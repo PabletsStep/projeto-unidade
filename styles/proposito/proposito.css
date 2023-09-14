@@ -37,3 +37,23 @@
 .sobre-nos__item__texto {
     padding: 0.5em;
 }
+
+@media screen and (min-width: 1024px) {
+    .sobre-nos__imagem__container {
+        text-align: center;
+        background-color: black;
+    }
+
+    .sobre-nos__icone-pu {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .sobre-nos__icone-pu {
+        width: 30%;
+    }
+    .sobre-nos__texto {
+        font-size: 20px;
+    }
+}

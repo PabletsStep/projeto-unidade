@@ -31,3 +31,27 @@
 .galerias__imagem {
     width: 100%;
 }
+
+@media screen and (min-width: 1024px) {
+    .swiper-slide img {
+        width: 70%;
+    }
+
+    .galerias__imagem {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .swiper-slide img {
+        width: 50%;
+    }
+
+    .galerias__imagem {
+        width: 30%;
+    }
+
+    .galerias__titulo {
+        font-size: 28px;
+    }
+}

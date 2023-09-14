@@ -14,6 +14,14 @@
         <header class="cabecalho">
             <div class="cabecalho__container">
                 <img src="./assets/logo-pu-preto.jpg" alt="logo projeto unidade" class="cabecalho__logo">
+                <h1 class="cabecalho__titulo__projeto-unidade">Projeto Unidade</h1>
+                <ul class="desktop__cabecalho__lista">
+                    <li class="desktop__cabecalho__item"><a class="desktop__cabecalho__link" href="index.html">Home</a></li>
+                    <li class="desktop__cabecalho__item"><a class="desktop__cabecalho__link" href="proximo-encontro-page.html">Próximo Encontro</a></li>
+                    <li class="desktop__cabecalho__item"><a class="desktop__cabecalho__link" href="proposito.html">Propósito</a></li>
+                    <li class="desktop__cabecalho__item"><a class="desktop__cabecalho__link" href="galeria-page.html">Galeria</a></li>
+                    <li class="desktop__cabecalho__item"><a class="desktop__cabecalho__link" href="produtos-page.html">Produtos</a></li>
+                </ul>
                 <input type="checkbox" id="menu" class="cabecalho__input">
                 <label for="menu" class="cabecalho__label">
                     <span class="cabecalho__titulo">
@@ -32,9 +40,10 @@
         </header>
         <section class="banner">
             <div class="banner__container">
-                <video class="banner__video" width="100%"  muted autoplay loop preload="auto">
-                    <source src="assets/banner-video5.mp4">
-                </video>
+                
+                <!-- <video class="banner__video" width="100%"  muted autoplay loop preload="auto">
+                    <source src="assets/banner-video5.mp4"> 
+                </video> -->
                 <h1 class="banner__titulo"><a href="index.html#proximo-encontro" class="banner__titulo__link">Próximo Encontro! - Saiba Mais</a></h1>
                 <h3 class="banner__texto">Unir - Mobilizar - Fortalecer - Influenciar</h3>
                 <nav class="lista-redes__container">
@@ -54,24 +63,26 @@
                 <a class="about__botao__link" href="proposito.html">Saiba Mais</a>
             </div>
         </section>
-        <section class="proximo-encontro">
-            <div class="proximo-encontro__container">
-                <h2 class="proximo-encontro__titulo" id="proximo-encontro">Próximo Encontro</h2>
-                <a class="proximo-encontro__link" href="proximo-encontro-page.html"><img class="proximo-encontro__imagem" src="./assets/encontro.jpg" alt="imagem proximo encontro pu"></a>
-                <p class="proximo-encontro__texto">Dia 28/09 - Igreja Batista. Rua Dr Pedro, 231</p>
-            </div>
-        </section>
-        <section class="galeria">
-            <div class="galeria__container">
-                <h2 class="galeria__titulo">Galeria de Fotos</h2>
-                <a class="galeria__link" href="#"><img class="galeria__imagem" src="./assets/galeria.png" alt="imagem galeria pu"></a>
-                <p class="galeria__texto">Acesse as últimas fotos de p.u em primeira mão!</p>
-            </div>
-        </section>
+        <div class="ipad__encontro__galeria__container">
+            <section class="proximo-encontro">
+                <div class="proximo-encontro__container">
+                    <h2 class="proximo-encontro__titulo" id="proximo-encontro">Próximo Encontro</h2>
+                    <a class="proximo-encontro__link" href="proximo-encontro-page.html"><img class="proximo-encontro__imagem" src="./assets/encontro.jpg" alt="imagem proximo encontro pu"></a>
+                    <p class="proximo-encontro__texto">Dia 28/09 - Igreja Batista. Rua Dr Pedro, 231</p>
+                </div>
+            </section>
+            <section class="galeria">
+                <div class="galeria__container">
+                    <h2 class="galeria__titulo">Galeria de Fotos</h2>
+                    <a class="galeria__link" href="galeria-page.html"><img class="galeria__imagem" src="./assets/galeria.png" alt="imagem galeria pu"></a>
+                    <p class="galeria__texto">Acesse as últimas fotos de p.u em primeira mão!</p>
+                </div>
+            </section>
+        </div>
         <section class="produtos">
             <div class="produtos__container">
                 <h2 class="produtos__titulo">Produtos P.U</h2>
-                <a class="produtos__link" href="#"><img class="produtos__imagem" src="./assets/produtos.png" alt="imagem produtos pu"></a>
+                <a class="produtos__link" href="produtos-page.html"><img class="produtos__imagem" src="./assets/produtos.png" alt="imagem produtos pu"></a>
                 <p class="produtos__texto">Adquira já a sua camiseta do Projeto Unidade!</p>
             </div>
         </section>

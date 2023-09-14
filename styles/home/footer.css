@@ -41,3 +41,29 @@
     font-family: var(--fonte-projeto);
     padding: 0.3em;
 }
+
+@media screen and (min-width: 1728px) {
+    .rodape__imagem-logo {
+        width: 70px;
+    }
+
+    .rodape__imagem-logo-branco {
+        width: 70px;
+    }
+
+    .rodape__titulo {
+        font-size: 22px;
+    }
+
+    .rodape__titulo-branco {
+        font-size: 22px;
+    }
+
+    .rodape__texto {
+        font-size: 20px;
+    }
+
+    .rodape__texto-branco {
+        font-size: 22px;
+    }
+}

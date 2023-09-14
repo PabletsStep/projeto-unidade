@@ -14,3 +14,19 @@
 .galeria__texto {
     padding: 0.5em;
 }
+
+@media screen and (min-width: 1024px) {
+    .galeria__container {
+        padding: 0.5em;
+    }
+
+    .galeria__imagem {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .galeria__texto {
+        font-size: 22px;
+    }
+}

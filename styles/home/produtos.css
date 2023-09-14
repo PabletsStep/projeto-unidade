@@ -14,3 +14,19 @@
 .produtos__texto {
     padding: 0.5em 0 1em;
 }
+
+@media screen and (min-width: 1024px) {
+    .produtos__imagem {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .produtos__imagem {
+        width: 30%;
+    }
+
+    .produtos__texto {
+        font-size: 22px;
+    }
+}

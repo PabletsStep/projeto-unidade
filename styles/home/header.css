@@ -49,3 +49,47 @@
 .cabecalho__input {
     display: none;   
 }
+
+.cabecalho__titulo__projeto-unidade {
+    display: none;
+}
+
+.desktop__cabecalho__lista {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__titulo__projeto-unidade {
+        display: block;
+        position: absolute;
+        font-size: 32px;
+        margin-left: 70px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .desktop__cabecalho__lista {
+        display: flex;
+        margin-right: 30%;
+    }
+
+    .desktop__cabecalho__item {
+        font-size: 26px;
+        padding: 0.3em;
+    }
+
+    .desktop__cabecalho__link {
+        text-decoration: none;
+        color: var(--preto);
+        padding: 0.7em;
+    }
+
+    .desktop__cabecalho__link:hover {
+        background-color: var(--preto);
+        color: var(--branco);
+    }
+
+    .cabecalho__label {
+        display: none;
+    }
+}

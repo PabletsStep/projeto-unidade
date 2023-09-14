@@ -33,3 +33,19 @@
     color: var(--branco);
     padding-bottom: 0.5em;
 }
+
+@media screen and (min-width: 1024px) {
+    .camiseta__imagem {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .camiseta__imagem {
+        width: 30%;
+    }
+
+    .camiseta__texto {
+        font-size: 22px;
+    }
+}

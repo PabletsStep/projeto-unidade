@@ -29,3 +29,19 @@
     width: 130px;
     border-radius: 50%;
 }
+
+@media screen and (min-width: 1024px) {
+    .equipe__item {
+        padding-right: 3em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .equipe__lista {
+        margin: 0 20%;
+        
+    }
+    .equipe__item {
+        font-size: 22px;
+    }
+}
